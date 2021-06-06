@@ -8,10 +8,10 @@ version = '1.0'
 
 sonarqube {
   properties {
-    property "sonar.projectKey", "convo"
-    property "sonar.host.url", "http://localhost:9000"
+    property "sonar.projectKey", "daronozdemir_convo"
+    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.organization", "daronozdemir"
     property "sonar.sources", "./src/"
     property "sonar.java.binaries", "./src/"
-    property "sonar.login", "5cffff1444718d35aed68baf22271f58b54d947a"
   }
 }
