@@ -1,0 +1,17 @@
+
+plugins {
+  id "org.sonarqube" version "3.2.0"
+}
+
+description = 'Example of SonarQube Scanner for Gradle Usage'
+version = '1.0'
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "convo"
+    property "sonar.host.url", "http://localhost:9000"
+    property "sonar.sources", "./src/"
+    property "sonar.java.binaries", "./src/"
+    property "sonar.login", "5cffff1444718d35aed68baf22271f58b54d947a"
+  }
+}
